@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WrkHistoryActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_weight="1"
+        android:text="Work History"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PERSONAL PROFILE:  I am an organized and hard-working person who works efficiently both individually and when working within a team. I am very self-driven, and constantly motivate myself to ensure that I am achieving the best results I can. I enjoy new experiences and challenges and am willing and excited to  learn and develop new skills. I have excellent communication skills and have good Leadership skills. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="KEY SKILLS:  •	Multilingual (Portuguese, Spanish and English speaker) •	Good problem solver when presented with complications •	Fast learner •	Self-driven and motivated •	Great organization •	Hard working •	Enthusiastic and great social skills •	Understanding of different coding languages and technologies including Java, Kotlin, Android, HTML, CSS, PHP, SQL, JavaScript, Git, GitHub, Golang, Swift, Objective - C , XCode ,Python and C# "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="WORK EXPERIENCE:  JUNIOR IOS DEVELOPER CONSULTANT AT INFORMATION TECH CONSULTANTS FEBRUARY 2022 – 2022 APRIL  •	Worked with UIKit  •	Worked with SwiftUI •	Worked with UIKit both programmatically as well as through storyboards •	Worked with Core Data and User Defaults •	Worked with different design patterns including MVC and MVVM as well as MVP •	Wrote tests using XCTEST  •	Parsed JSON APIs •	Worked with CocoaPods and 3rd party libraries •	Worked with firebase authentication and verification  •	Worked mainly using swift 5 •	Used git and Github, worked on different branches in order to maintain version control  •	Worked on UI using Storyboards and AutoLayout •	Used object-oriented programming throughout  "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="BRAZILIAN JIU-JITSU TRAINER	MARCH 2013-PRESENT   •	Teaching and leading training for a Brazilian Jiu-jitsu class •	Assisting students achieve a higher level of understanding for a very complex sport •	Gained expertise in nutritional advice •	Granted the opportunity to improve leadership skills •	Gained more confidence with public speaking and providing clear and concise instructions orders •	Assisted teaching Brazilian Jiu-Jitsu in private training sessions and classes for children whilst in Portugal. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
